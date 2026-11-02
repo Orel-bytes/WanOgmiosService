@@ -1,0 +1,9 @@
+{
+  "serviceType": "APIServiceInterface",
+  "serviceName": "APIService",
+  "config": {
+    "webPort": 4337
+  }
+}
+
+

@@ -1,0 +1,22 @@
+{
+  "serviceType": "AgentServiceInterface",
+  "serviceName": "AgentService",
+  "config": {
+    "SecurityConfirmCfg":{
+      "securityConfirmServiceID": 100110,
+      "retryInterval": 100,
+      "confirmStep": 5,
+      "securityBlockNum": 30,
+      "delayBlockNum": 3,
+      "maxValidBlockMargin": 10,
+      "externalSource": "blockFrost",
+      "blockFrostConfig": {
+        "ApiKey": ""
+      },
+      "maestroConfig":{
+        "ApiKey": "",
+        "url": ""
+      }
+    }
+  }
+}
